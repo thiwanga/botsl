@@ -4,7 +4,7 @@ import threading
 import sys
 import time
 class Connect:
-   req = urllib2.Request('http://khalsalabs.com')
+   req = urllib2.Request('https://secdevil.com')
    con_sucess, con_failed, con_total=0,0,0
    url_total, proxy_total= 0,0
    url_list =[]
